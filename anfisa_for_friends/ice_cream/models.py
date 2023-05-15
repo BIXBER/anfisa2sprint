@@ -35,4 +35,3 @@ class IceCream(PublishedModel):
     )
     toppings = models.ManyToManyField(Topping)
     is_on_main = models.BooleanField(default=False)
-
